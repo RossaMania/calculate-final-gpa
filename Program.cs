@@ -47,7 +47,7 @@ namespace calculate_final_gpa
           totalGradePoints += course4Credit * course4Grade;
           totalGradePoints += course5Credit * course5Grade;
 
-
+          Console.WriteLine($"{totalGradePoints} {totalCreditHours}");
 
           Console.WriteLine($"{course1Name} {course1Grade}");
           Console.WriteLine($"{course2Name} {course2Grade}");
