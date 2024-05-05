@@ -64,6 +64,7 @@ namespace calculate_final_gpa
           Console.WriteLine($"{course5Name}\t\t{course5Grade}\t\t{course5Credit}");
 
           Console.WriteLine($"\nFinal GPA:\t\t\t {leadingDigit}.{firstDigit}{secondDigit}");
+
         }
 
     }
