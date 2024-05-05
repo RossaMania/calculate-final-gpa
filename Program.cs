@@ -4,9 +4,9 @@ using System;
 
 namespace calculate_final_gpa
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
           string studentName = "Sophia Johnson";
