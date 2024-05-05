@@ -53,11 +53,16 @@ namespace calculate_final_gpa
           int firstDigit = (int) (gradePointAverage * 10) % 10;
           int secondDigit = (int) (gradePointAverage * 100 ) % 10;
 
+          Console.WriteLine($"Student: {studentName}\n");
+
+          Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
+
           Console.WriteLine($"{course1Name} {course1Grade}");
           Console.WriteLine($"{course2Name} {course2Grade}");
           Console.WriteLine($"{course3Name} {course3Grade}");
           Console.WriteLine($"{course4Name} {course4Grade}");
           Console.WriteLine($"{course5Name} {course5Grade}");
+
           Console.WriteLine($"Final GPA: {leadingDigit}.{firstDigit}{secondDigit}");
         }
 
