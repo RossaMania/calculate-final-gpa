@@ -57,11 +57,11 @@ namespace calculate_final_gpa
 
           Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
 
-          Console.WriteLine($"{course1Name} {course1Grade}");
-          Console.WriteLine($"{course2Name} {course2Grade}");
-          Console.WriteLine($"{course3Name} {course3Grade}");
-          Console.WriteLine($"{course4Name} {course4Grade}");
-          Console.WriteLine($"{course5Name} {course5Grade}");
+          Console.WriteLine($"{course1Name}\t\t\t{course1Grade}\t\t{course1Credit}");
+          Console.WriteLine($"{course2Name}\t\t\t{course2Grade}\t\t{course2Credit}");
+          Console.WriteLine($"{course3Name}\t\t\t{course3Grade}\t\t{course3Credit}");
+          Console.WriteLine($"{course4Name}\t{course4Grade}\t\t{course4Credit}");
+          Console.WriteLine($"{course5Name}\t\t{course5Grade}\t\t{course5Credit}");
 
           Console.WriteLine($"Final GPA: {leadingDigit}.{firstDigit}{secondDigit}");
         }
